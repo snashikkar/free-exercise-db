@@ -39,6 +39,32 @@ See [Alternate_Incline_Dumbbell_Curl.json](./exercises/Alternate_Incline_Dumbbel
 
 To further explore the data, you can use [lite.datasette.io](https://lite.datasette.io/?json=https://github.com/yuhonas/free-exercise-db/blob/main/dist/exercises.json#/data/exercises?_facet_array=primaryMuscles&_facet=force&_facet=level&_facet=equipment)
 
+### Program overlay (fork extension)
+
+> ℹ️ **This section documents a fork-specific addition not present in [upstream](https://github.com/yuhonas/free-exercise-db).**
+
+This fork adds an **optional, additive `program` field** to the schema. It carries a *Lifelong-UL v3* training-program overlay: weekly slot assignments, set/rep/RIR prescriptions, and a program-specific `muscle_credit` taxonomy. The field is **absent on generic rows** and **not in the schema's `required` list**, so every generic consumer can ignore it and all upstream rows validate unchanged.
+
+```json
+"program": [
+  {
+    "slot": "lowerA.2",
+    "role": "anchor",
+    "sets": 3,
+    "reps": "3-5",
+    "rir_ceiling": 3,
+    "cap": "RIR2",
+    "increment": "+5/10",
+    "muscle_credit": {
+      "primary": {},
+      "secondary": ["hamstrings", "glutes", "quads"]
+    }
+  }
+]
+```
+
+Why a separate taxonomy? The overlay's `muscle_credit` keys (`side_delts`, `rear_delts`, `front_delts`, …) deliberately split distinctions that the generic `primaryMuscles` enum collapses into a single `shoulders` bucket — preserving them without touching any generic field. 29 rows carry an overlay (27 existing + 2 fork-native machine exercises, `Belt_Squat_Lever` and `Reverse_Pec_Deck`). See [schema.json](./schema.json) for the full `program` definition.
+
 ### How do I use them?
 
 You can check the repo out and use the `JSON` files and images locally
