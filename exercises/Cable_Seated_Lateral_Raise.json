@@ -25,5 +25,37 @@
     "Cable_Seated_Lateral_Raise/0.jpg",
     "Cable_Seated_Lateral_Raise/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.4",
+      "role": "accessory",
+      "sets": 4,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+2.5",
+      "muscle_credit": {
+        "primary": {
+          "side_delts": 4
+        },
+        "secondary": []
+      }
+    },
+    {
+      "slot": "upperB.5",
+      "role": "accessory",
+      "sets": 4,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+2.5",
+      "muscle_credit": {
+        "primary": {
+          "side_delts": 4
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Cable_Seated_Lateral_Raise"
 }

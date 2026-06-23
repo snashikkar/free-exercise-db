@@ -21,5 +21,24 @@
     "Thigh_Abductor/0.jpg",
     "Thigh_Abductor/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerA.5",
+      "role": "accessory",
+      "sets": 4,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "hip_abductors": 4
+        },
+        "secondary": [
+          "glutes"
+        ]
+      }
+    }
+  ],
   "id": "Thigh_Abductor"
 }

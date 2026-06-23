@@ -22,5 +22,22 @@
     "Standing_Calf_Raises/0.jpg",
     "Standing_Calf_Raises/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerA.6",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "calves": 3
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Standing_Calf_Raises"
 }

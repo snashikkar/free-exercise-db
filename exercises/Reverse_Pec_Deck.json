@@ -1,0 +1,39 @@
+{
+  "name": "Reverse Pec Deck",
+  "force": "pull",
+  "level": "beginner",
+  "mechanic": "isolation",
+  "equipment": "machine",
+  "primaryMuscles": [
+    "shoulders"
+  ],
+  "secondaryMuscles": [
+    "traps"
+  ],
+  "instructions": [
+    "Sit chest-against-pad facing the machine, arms forward gripping the handles.",
+    "Drive the arms back in a wide arc, squeezing the rear deltoids at the end range.",
+    "Control the return; keep the torso still and avoid shrugging.",
+    "Small-increment accessory: +2.5 lb progression."
+  ],
+  "category": "strength",
+  "images": [],
+  "program": [
+    {
+      "slot": "upperB.6",
+      "role": "accessory",
+      "sets": 4,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+2.5",
+      "muscle_credit": {
+        "primary": {
+          "rear_delts": 4
+        },
+        "secondary": []
+      }
+    }
+  ],
+  "id": "Reverse_Pec_Deck"
+}

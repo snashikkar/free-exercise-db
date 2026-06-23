@@ -22,5 +22,22 @@
     "Seated_Leg_Curl/0.jpg",
     "Seated_Leg_Curl/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerB.4",
+      "role": "accessory",
+      "sets": 2,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "hamstrings": 2
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Seated_Leg_Curl"
 }

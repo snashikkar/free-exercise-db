@@ -22,5 +22,22 @@
     "Triceps_Pushdown/0.jpg",
     "Triceps_Pushdown/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.6",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "10-12",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "triceps": 3
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Triceps_Pushdown"
 }

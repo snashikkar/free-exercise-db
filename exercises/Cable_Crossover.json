@@ -22,5 +22,22 @@
     "Cable_Crossover/0.jpg",
     "Cable_Crossover/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperB.4",
+      "role": "accessory",
+      "sets": 2,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "chest": 2
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Cable_Crossover"
 }

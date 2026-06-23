@@ -21,5 +21,24 @@
     "Full_Range-Of-Motion_Lat_Pulldown/0.jpg",
     "Full_Range-Of-Motion_Lat_Pulldown/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.3",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "8-10",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "back": 3
+        },
+        "secondary": [
+          "biceps"
+        ]
+      }
+    }
+  ],
   "id": "Full_Range-Of-Motion_Lat_Pulldown"
 }
