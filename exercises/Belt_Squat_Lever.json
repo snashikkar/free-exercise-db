@@ -1,0 +1,43 @@
+{
+  "name": "Belt Squat (Lever-Arm)",
+  "force": "push",
+  "level": "intermediate",
+  "mechanic": "compound",
+  "equipment": "machine",
+  "primaryMuscles": [
+    "quadriceps"
+  ],
+  "secondaryMuscles": [
+    "glutes",
+    "hamstrings",
+    "calves"
+  ],
+  "instructions": [
+    "Load the lever-arm carriage and stand on the platform with the belt secured around your hips.",
+    "Brace your trunk, unrack, and descend under control to depth, keeping the spine neutral.",
+    "Drive up through the platform to lockout without leaning on the handles for the rep.",
+    "Anchor lift: permanent RIR-2 / RPE-8 cap, every cycle."
+  ],
+  "category": "strength",
+  "images": [],
+  "program": [
+    {
+      "slot": "lowerA.1",
+      "role": "anchor",
+      "sets": 4,
+      "reps": "6",
+      "rir_ceiling": 3,
+      "cap": "RIR2",
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "quads": 4
+        },
+        "secondary": [
+          "glutes"
+        ]
+      }
+    }
+  ],
+  "id": "Belt_Squat_Lever"
+}

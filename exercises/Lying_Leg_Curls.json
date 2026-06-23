@@ -21,5 +21,22 @@
     "Lying_Leg_Curls/0.jpg",
     "Lying_Leg_Curls/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerA.4",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "10-12",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "hamstrings": 3
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Lying_Leg_Curls"
 }

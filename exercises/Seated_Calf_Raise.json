@@ -23,5 +23,22 @@
     "Seated_Calf_Raise/0.jpg",
     "Seated_Calf_Raise/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerB.7",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "10-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "calves": 3
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Seated_Calf_Raise"
 }

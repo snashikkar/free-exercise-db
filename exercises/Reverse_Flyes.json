@@ -23,5 +23,22 @@
     "Reverse_Flyes/0.jpg",
     "Reverse_Flyes/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.5",
+      "role": "accessory",
+      "sets": 2,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+2.5",
+      "muscle_credit": {
+        "primary": {
+          "rear_delts": 2
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Reverse_Flyes"
 }

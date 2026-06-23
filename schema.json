@@ -133,6 +133,37 @@
           "type": "string"
         }
       ]
+    },
+    "program": {
+      "type": ["array", "null"],
+      "description": "Lifelong-UL v3 program-overlay (optional). Absent/null on generic rows. Multiple entries when one exercise fills multiple weekly slots.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "slot":         { "type": "string", "pattern": "^(upperA|upperB|lowerA|lowerB)\\.[0-9]+$" },
+          "role":         { "type": "string", "enum": ["anchor", "accessory", "carry", "core"] },
+          "sets":         { "type": "integer" },
+          "reps":         { "type": "string" },
+          "rir_ceiling":  { "type": ["integer", "string"] },
+          "cap":          { "type": ["string", "null"] },
+          "increment":    { "type": "string" },
+          "muscle_credit": {
+            "type": "object",
+            "properties": {
+              "primary":   { "type": "object" },
+              "secondary": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": ["chest","back","quads","hamstrings","glutes","side_delts","rear_delts","front_delts","biceps","triceps","calves","hip_abductors","hip_adductors","core","grip_carry"]
+                }
+              }
+            },
+            "required": ["primary", "secondary"]
+          }
+        },
+        "required": ["slot", "role", "sets", "reps", "rir_ceiling", "increment", "muscle_credit"]
+      }
     }
   },
   "required": [

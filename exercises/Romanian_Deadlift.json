@@ -24,5 +24,24 @@
     "Romanian_Deadlift/0.jpg",
     "Romanian_Deadlift/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerB.3",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "8-10",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "hamstrings": 3
+        },
+        "secondary": [
+          "glutes"
+        ]
+      }
+    }
+  ],
   "id": "Romanian_Deadlift"
 }

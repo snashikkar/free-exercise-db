@@ -20,5 +20,25 @@
     "Leverage_Shoulder_Press/0.jpg",
     "Leverage_Shoulder_Press/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperB.2",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "8-10",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "front_delts": 3
+        },
+        "secondary": [
+          "side_delts",
+          "triceps"
+        ]
+      }
+    }
+  ],
   "id": "Leverage_Shoulder_Press"
 }

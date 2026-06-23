@@ -21,5 +21,25 @@
     "Leverage_Incline_Chest_Press/0.jpg",
     "Leverage_Incline_Chest_Press/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperB.3",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "10-12",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "chest": 3
+        },
+        "secondary": [
+          "front_delts",
+          "triceps"
+        ]
+      }
+    }
+  ],
   "id": "Leverage_Incline_Chest_Press"
 }

@@ -24,5 +24,25 @@
     "Lying_T-Bar_Row/0.jpg",
     "Lying_T-Bar_Row/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.2",
+      "role": "anchor",
+      "sets": 4,
+      "reps": "6-8",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "back": 4
+        },
+        "secondary": [
+          "biceps",
+          "rear_delts"
+        ]
+      }
+    }
+  ],
   "id": "Lying_T-Bar_Row"
 }

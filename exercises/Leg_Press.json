@@ -24,5 +24,24 @@
     "Leg_Press/0.jpg",
     "Leg_Press/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerB.1",
+      "role": "anchor",
+      "sets": 3,
+      "reps": "10-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "quads": 3
+        },
+        "secondary": [
+          "glutes"
+        ]
+      }
+    }
+  ],
   "id": "Leg_Press"
 }

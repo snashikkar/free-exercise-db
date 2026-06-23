@@ -25,5 +25,41 @@
     "Farmers_Walk/0.jpg",
     "Farmers_Walk/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.8",
+      "role": "carry",
+      "sets": 2,
+      "reps": "30-40m",
+      "rir_ceiling": "carry",
+      "cap": "RPE8",
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "grip_carry": 2
+        },
+        "secondary": [
+          "back"
+        ]
+      }
+    },
+    {
+      "slot": "lowerB.8",
+      "role": "carry",
+      "sets": 3,
+      "reps": "30-40m",
+      "rir_ceiling": "carry",
+      "cap": "RPE8",
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "grip_carry": 3
+        },
+        "secondary": [
+          "back"
+        ]
+      }
+    }
+  ],
   "id": "Farmers_Walk"
 }

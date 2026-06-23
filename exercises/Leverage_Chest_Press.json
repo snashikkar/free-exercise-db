@@ -22,5 +22,25 @@
     "Leverage_Chest_Press/0.jpg",
     "Leverage_Chest_Press/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "upperA.1",
+      "role": "anchor",
+      "sets": 4,
+      "reps": "5-8",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "chest": 4
+        },
+        "secondary": [
+          "triceps",
+          "front_delts"
+        ]
+      }
+    }
+  ],
   "id": "Leverage_Chest_Press"
 }

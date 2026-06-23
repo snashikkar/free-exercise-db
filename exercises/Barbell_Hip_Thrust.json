@@ -21,5 +21,24 @@
     "Barbell_Hip_Thrust/0.jpg",
     "Barbell_Hip_Thrust/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerA.3",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "8-10",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "glutes": 3
+        },
+        "secondary": [
+          "hamstrings"
+        ]
+      }
+    }
+  ],
   "id": "Barbell_Hip_Thrust"
 }

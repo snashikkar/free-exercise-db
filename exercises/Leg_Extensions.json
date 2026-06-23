@@ -21,5 +21,22 @@
     "Leg_Extensions/0.jpg",
     "Leg_Extensions/1.jpg"
   ],
+  "program": [
+    {
+      "slot": "lowerB.2",
+      "role": "accessory",
+      "sets": 3,
+      "reps": "12-15",
+      "rir_ceiling": 3,
+      "cap": null,
+      "increment": "+5/10",
+      "muscle_credit": {
+        "primary": {
+          "quads": 3
+        },
+        "secondary": []
+      }
+    }
+  ],
   "id": "Leg_Extensions"
 }
